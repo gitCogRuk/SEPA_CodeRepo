@@ -1,40 +1,9 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> d8a7ffd84fd5d48cc8abc30becc94e726f380a65
-=======
-
->>>>>>> d8a7ffd84fd5d48cc8abc30becc94e726f380a65
-=======
-
->>>>>>> d8a7ffd84fd5d48cc8abc30becc94e726f380a65
-=======
-
->>>>>>> d8a7ffd84fd5d48cc8abc30becc94e726f380a65
 name: CI
 
 on:
   push:
     branches:
       - main
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  pull_request:
-    branches:
-      - main
-=======
->>>>>>> d8a7ffd84fd5d48cc8abc30becc94e726f380a65
-=======
->>>>>>> d8a7ffd84fd5d48cc8abc30becc94e726f380a65
-=======
->>>>>>> d8a7ffd84fd5d48cc8abc30becc94e726f380a65
-=======
->>>>>>> d8a7ffd84fd5d48cc8abc30becc94e726f380a65
 
 jobs:
   build:
@@ -44,26 +13,6 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    - name: Install dependencies
-      run: pip install -r requirements.txt
-
-    - name: Run unit tests
-      run: |
-        python -m unittest utest_iso20022_generator.py
-
-    - name: Run system tests
-      run: python -m unittest stest_iso20022_generator.py
-=======
-=======
->>>>>>> d8a7ffd84fd5d48cc8abc30becc94e726f380a65
-=======
->>>>>>> d8a7ffd84fd5d48cc8abc30becc94e726f380a65
-=======
->>>>>>> d8a7ffd84fd5d48cc8abc30becc94e726f380a65
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
@@ -75,13 +24,3 @@ jobs:
 
     - name: Run script
       run: python script.py
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d8a7ffd84fd5d48cc8abc30becc94e726f380a65
-=======
->>>>>>> d8a7ffd84fd5d48cc8abc30becc94e726f380a65
-=======
->>>>>>> d8a7ffd84fd5d48cc8abc30becc94e726f380a65
-=======
->>>>>>> d8a7ffd84fd5d48cc8abc30becc94e726f380a65
